@@ -87,7 +87,9 @@ Create a table that breaks down school performance based on school type (distric
 
 
 ## PyCitySchools Code Theory
-
+1. First, confirm the source data is placed in the proper "Resource" folder
+2. Check the CSVs for inconsistancies: extra spaces in headers, empty rows/columns, incomplete rows, wrong datatypes, duplicate entries to be consolidated, (using `.head()`command).
+3. Prep scripts to clean up the issues found in #2 above.
 
 
 
