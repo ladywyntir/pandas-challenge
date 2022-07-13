@@ -88,10 +88,14 @@ Create a table that breaks down school performance based on school type (distric
 
 ## PyCitySchools Code Theory
 1. First, confirm the source data is placed in the proper "Resource" folder
-2. Check the CSVs for inconsistancies: extra spaces in headers, empty rows/columns, incomplete rows, wrong datatypes, duplicate entries to be consolidated, (using `.head()`command).
-3. Prep scripts to clean up the issues found in #2 above.
+2. Check for the data types for each column
+3. Check the CSVs for inconsistancies: extra spaces in headers, empty rows/columns, incomplete rows, wrong datatypes, duplicate entries to be consolidated, (using `.head()`command).
+4. Prep scripts to clean up the issues found in #2 above.
+5. Merge the two data sets together and show a sample.
+6. Do the calculations: note that some calculations will only need to use one dataset (ex: since the "budget" amounts are static for each school, only that dataset is used). Otherwise the math can be done from the joined dataset.
+7. Format the output - currency, decimals, etc
 
-
+The hardest thing I found was trying to test in a cell and then keeping track of the information as you have to continuously scroll back and forth.  In this assignment, my code is VERY messy.... xD
 
 ---
 Assignments and other documentation sourced from the Georgia Tech Boot Camp, Summer/Fall 2022
