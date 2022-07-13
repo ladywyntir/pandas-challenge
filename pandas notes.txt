@@ -1,0 +1,4 @@
+School: School ID,school_name,type,size,budget
+students: Student ID,student_name,gender,grade,school_name,reading_score,math_score
+
+Use the census merging solved activity to assist with this project.
